@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PYTHONUNBUFFERED</key>
+		<string>1</string>
+	</dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.qike.crm-mvp</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/ABSOLUTE/PATH/TO/hk/.venv/bin/python</string>
+		<string>/ABSOLUTE/PATH/TO/hk/scripts/serve_lan.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/ABSOLUTE/PATH/TO/hk/data/service.error.log</string>
+	<key>StandardOutPath</key>
+	<string>/ABSOLUTE/PATH/TO/hk/data/service.log</string>
+	<key>ThrottleInterval</key>
+	<integer>10</integer>
+	<key>Umask</key>
+	<integer>63</integer>
+	<key>WorkingDirectory</key>
+	<string>/ABSOLUTE/PATH/TO/hk</string>
+</dict>
+</plist>
